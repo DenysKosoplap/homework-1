@@ -41,3 +41,121 @@
     --color-secondary-text:#747272;
     --color-secondary-modal:#011F4A;
     }
+body {
+  background-color: var(--color-brand-background);
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p 	{
+  	margin-top: 0;
+	/* font-weight: inherit;
+	font-size: inherit; */
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+
+}
+
+.header {
+  background-color: lightgray;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 240px;
+}
+
+.header-menu {
+  display: flex;
+  flex-grow: 1;
+  gap: 56px;
+}
+
+.link {
+  font-family: 'Roboto Serif';
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-brand-text);
+}
+.link:hover {
+  color: var(--color-brand-second-text);
+  /* font-weight: 700; */
+}
+
+.header-socials {
+  display: flex;
+  gap: 32px;
+}
+.header-socials-icon {
+  fill: var(--color-brand-text);
+}
+.header-socials-icon:hover {
+  fill: var(--color-brand-background);
+}
+
+.text-one {
+  font-family: 'Roboto Serif';
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-brand-text);
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.base-text {
+  font-family: 'Play';
+  font-size: 64px;
+}
+.text-brand {
+  font-family: 'Play';
+  color: var(--color-brand-second-text);
+  font-size: 64px;
+  /* text-transform: uppercase; */
+}
+.brand-logo {
+  font-family:'Play';
+  font-size: 140px;
+  font-weight: 700;
+  color: var(--color-brand-second-text);
+  margin-top: 16px;
+}
+.button {
+  display: block;
+  font-size: 18px;
+  border-radius: 32px;
+  padding: 16px 24ex;
+  color: var(--color-brand-background);
+  font-weight: 600;
+  border: 2px solid var(--color-brand-second-text);
+  background-color: var(--color-brand-second-text);
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--color-brand-text);
+  background-color:var(--color-brand-background);
+ }
+ .text-button {
+  font-size: 12px;
+  text-align: left;
+ }
+ .text-zone {
+  font-weight: bold;
+  
+ }
+ .base {
+  line-height: 1.7;
+ }
